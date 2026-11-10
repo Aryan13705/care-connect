@@ -149,3 +149,5 @@ Phase 1 focuses on frontend UI/UX completeness, navigation, and local reactive s
 - **Payment Processing:** Razorpay / Stripe gateway integration for real-time consultation fee settlement.
 - **Digital Signatures:** Cryptographic signing of prescriptions complying with national telemedicine guidelines.
 - **Cloud Document Storage:** Cloud Storage for patient medical records and lab PDF attachments.
+
+# care-connect
