@@ -1,0 +1,23 @@
+{
+  "name": "careconnect-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CareConnect — Digital healthcare platform connecting patients, doctors, and administrators",
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:patient": "pnpm --filter @careconnect/patient start",
+    "dev:doctor": "pnpm --filter @careconnect/doctor start",
+    "dev:admin": "pnpm --filter @careconnect/admin dev",
+    "build": "turbo run build",
+    "build:patient": "pnpm --filter @careconnect/patient build",
+    "build:doctor": "pnpm --filter @careconnect/doctor build",
+    "build:admin": "pnpm --filter @careconnect/admin build",
+    "type-check": "turbo run type-check",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "pnpm@9.15.4"
+}

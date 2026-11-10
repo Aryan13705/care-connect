@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "CareConnect Doctor",
+    "slug": "careconnect-doctor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "careconnect-doctor",
+    "splash": {
+      "backgroundColor": "#F7F9FA"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.careconnect.doctor"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F9FA"
+      },
+      "package": "com.careconnect.doctor"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
